@@ -1,6 +1,6 @@
 {
   "name": "portainer-mcp-stacks",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "MCP server for Portainer with regular stacks support - fork of portainer/portainer-mcp with fix for listing regular Docker Compose stacks",
   "bin": {
     "portainer-mcp-npm": "./run.js",

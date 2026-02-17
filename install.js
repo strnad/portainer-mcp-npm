@@ -7,19 +7,19 @@ const path = require("path");
 const https = require("https");
 const http = require("http");
 
-const VERSION = "v0.6.1";
+const VERSION = "v0.7.0";
 const REPO = "strnad/portainer-mcp";
 const BINARY_NAME = "portainer-mcp";
 const INSTALL_DIR = __dirname;
 
 // SHA256 checksums of release tarballs
 const CHECKSUMS = {
-  "portainer-mcp-v0.6.1-darwin-arm64.tar.gz":
-    "c649b6809ae2d7875b633423fab292ed0bafcc57a91e6f8eaf1248fbadc22cdb",
-  "portainer-mcp-v0.6.1-linux-amd64.tar.gz":
-    "7a9410d8782b72194dc0e29e7dc3b8f7778297c52f7808d86d18e1b6ec5532b8",
-  "portainer-mcp-v0.6.1-linux-arm64.tar.gz":
-    "67e885367e1cbc151fddddc8abde2c1704bfad677d72a918e9328d68793a53f7",
+  "portainer-mcp-v0.7.0-darwin-arm64.tar.gz":
+    "834537ad2294ec92489fb17c6f667b8948b8a46e54a1dfef266ba4f6eb168c0b",
+  "portainer-mcp-v0.7.0-linux-amd64.tar.gz":
+    "06befc318f7cfa366dded143d4822e37b3307ef949f97c7fe0e9920a5a8f6201",
+  "portainer-mcp-v0.7.0-linux-arm64.tar.gz":
+    "e259086cf54516805a9af8e32694e781d62cfbab5139ddb0bb244c6d8dfcc5df",
 };
 
 function getPlatform() {
