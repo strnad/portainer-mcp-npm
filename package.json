@@ -1,0 +1,25 @@
+{
+  "name": "portainer-mcp-stacks",
+  "version": "0.6.1",
+  "description": "MCP server for Portainer with regular stacks support - fork of portainer/portainer-mcp with fix for listing regular Docker Compose stacks",
+  "bin": {
+    "portainer-mcp-stacks": "./run.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "keywords": [
+    "mcp",
+    "portainer",
+    "docker",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "stacks"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strnad/portainer-mcp"
+  }
+}
